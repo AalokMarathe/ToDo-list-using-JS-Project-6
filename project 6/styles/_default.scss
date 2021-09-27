@@ -1,0 +1,28 @@
+// font-family: 'Scheherazade New', serif;
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+
+// font-family: 'Bebas Neue', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Scheherazade+New&display=swap');
+
+//varible 
+$bg: #e5eeff;;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade New', serif;
+    background-color: $bg;
+    color: rgb(0, 0, 0);
+}
+textarea:focus, input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 4px rgb(151, 196, 216);
+    outline: 1px solid rgb(99, 151, 230) inset;
+}
+.container{
+    margin: 2em 5em 5em 5em;
+}
+.text-center{
+    text-align: center;
+}
